@@ -1,0 +1,13 @@
+CSS Notes:
+
+image websites:
+
+- unsplash, lorem picsum, font awesome, font awesome cdn paste as stylesheet, google fonts
+
+Flex-grow:
+
+- flex-grow:1 -- will make the element to fill all the place except the selected place  by another element
+- flex-basis:100px -- make sure the width of the flex doesn't come below the specified value     
+- flex-basis:33% -- will taken as 33% since already the container contains the padding and margin
+
+**Flex-basis will only work if flex-wrap is defined in the container

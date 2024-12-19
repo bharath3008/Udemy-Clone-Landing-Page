@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Gabarito", serif;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: black 1px solid;
+    align-items: center;
+}
+
+.navbar__s1 {
+    color: #8f36b2;
+}
+
+.navbar__s2 {
+    border: black solid 1px;
+    width: 60%;
+    height: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.navbar__s2-input {
+    border: none;
+    width: 50%;
+}
+
+.navbar__s2-input:focus {
+    border: none;
+    outline: none;
+}
+
+.navbar__s3 {
+    display: flex;
+    gap: 10px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 1px black solid;
+}
+
+.categories p {
+    border: black 1px solid;
+    background-color: #8f36b2;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.categories p:hover {
+    color: lightgrey;
+}
+
+.Section-image img{
+    width: 100%;
+}
+
+.recommended{
+    padding:10px;
+}
+
+.recommended__desc{
+    margin-bottom: 10px;
+}
+
+.recommended__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course-card{
+    width: 250px;
+}
+
+.course-card img{
+    width: 100%;
+    height: 170px;
+}
+
+.topics{
+    padding: 10px;
+}
+
+.topics__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-top: 10px;
+}
+
+.topics__container p{
+    border: 2px grey solid;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%
+}
+
+.topics__container p:hover{
+background-color: lightgray;
+}
+
+.popular-section{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.popular__container{
+    display: flex;
+    gap:10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.popular-card{
+    width: 200px;
+    flex-basis: 22%;
+}
+
+.popular-desc{
+    margin-bottom: 10px;
+}
+
+.popular-card img{
+    width: 250px;
+    height: 150px;
+}
+
+.footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.footer__one{
+    margin-top: 20px;
+    display: flex;
+}
+
+.footer__one p{
+    padding: 15px;
+}
+
+.footer__two{
+    padding: 20px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
