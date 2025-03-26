@@ -13,6 +13,10 @@ body {
     justify-content: space-between;
     border-bottom: black 1px solid;
     align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .navbar__s1 {
@@ -33,6 +37,7 @@ body {
 .navbar__s2-input {
     border: none;
     width: 50%;
+    background-color: transparent;
 }
 
 .navbar__s2-input:focus {
@@ -43,6 +48,26 @@ body {
 .navbar__s3 {
     display: flex;
     gap: 10px;
+}
+
+.mylearning{
+    position: relative;
+    cursor: pointer;
+}
+
+.mylearning__popup{
+    position: absolute;
+    background-color: white;
+    border: solid black 1px;
+    padding: 10%;
+    width: 150px;
+    right: 0;
+    top: 150%;
+    display: none;
+}
+
+.mylearning:hover .mylearning__popup{
+    display: block;
 }
 
 .categories {
@@ -62,6 +87,10 @@ body {
 
 .categories p:hover {
     color: lightgrey;
+}
+
+.Section-image{
+    position: relative;
 }
 
 .Section-image img{
@@ -159,5 +188,15 @@ background-color: lightgray;
     display: flex;
     margin-top: 30px;
     justify-content: space-between;
+}
+
+.section-image__offer{
+    position: absolute;
+    background-color: white;
+    top: 10%;
+    left: 10%;
+    width: 35%;
+    border: black 2px solid;
+    padding: 2%;
 }
 
