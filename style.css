@@ -114,7 +114,9 @@ body {
 }
 
 .course-card{
-    width: 250px;
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
 }
 
 .course-card img{
@@ -218,3 +220,28 @@ background-color: lightgray;
     
 }
 
+.menubar {
+    display: none;
+}
+
+@media screen and (max-width:800px){
+    body{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .navbar__s2,.navbar__s3{
+        display: none;
+    }
+
+    .menubar{
+        display: block;
+    }
+    .categories{
+        display: none;
+    }
+    .course-card{
+        flex-basis: 40%;
+    }
+}
